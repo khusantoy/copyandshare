@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             CodeTextField(
-              hintText: 'Paste code here',
+              hintText: 'Paste code here.',
               onChanged: (value) {
                 print('Kiritilgan matn: $value');
               },
