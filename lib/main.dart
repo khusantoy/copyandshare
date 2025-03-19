@@ -14,16 +14,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Copy and share',
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.black87,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.black87,
-        ),
-      ),
-      home: const HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
